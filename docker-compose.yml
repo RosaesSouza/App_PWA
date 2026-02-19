@@ -1,0 +1,12 @@
+services:
+  frontend-app:
+    build: .
+    container_name: meu-frontend
+    restart: always
+    networks:
+      - infra_web-public
+
+# Conecta na rede do Proxy Manager que criamos antes
+networks:
+  infra_web-public:
+    external: true
