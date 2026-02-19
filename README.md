@@ -1,4 +1,4 @@
-# Geofin APP - Frontend (PWA)
+# APP - PWA
 
 Aplicação frontend em React + Vite com suporte a PWA (Progressive Web App).
 
